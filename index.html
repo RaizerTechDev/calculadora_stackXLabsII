@@ -1,0 +1,82 @@
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://media.giphy.com/media/dAK7IKJ9bO4ovzVAB1/giphy.gif" image/x-icon">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <title>Calc_Labs</title>
+</head>
+
+<body>
+
+  <!-- Criaçao de classes "container, calculate e display". -->
+  <div class="container">
+    <div class="calculator">
+      <div class="display">
+        <input type="text" id="display" readonly>
+      </div>
+
+      <div class="buttons"> <!-- Cria um contêiner com a classe "buttons" para os botões da calculadora. -->
+
+        <button class="clean" id="limpar" onclick="clearDisplay()"><b>CE</b></button>
+        <button class="operator" onclick="backspace()"><b>DEL</b></button>
+        <button class="operator" id="operacao" onclick="appendToDisplay('/')"><i
+            class="fas fa-divide"><b></b></i></button>
+
+        <button class="number" onclick="appendToDisplay('7')"><b>7</b></button>
+        <button class="number" onclick="appendToDisplay('8')"><b>8</b></button>
+        <button class="number" onclick="appendToDisplay('9')"><b>9</b></button>
+        <button class="operator" id="operacao" onclick="appendToDisplay('*')"><b>*</b></button>
+
+        <button class="number" onclick="appendToDisplay('4')"><b>4</b></button>
+        <button class="number" onclick="appendToDisplay('5')"><b>5</b></button>
+        <button class="number" onclick="appendToDisplay('6')"><b>6</b></button>
+        <button class="operator" id="operacao" onclick="appendToDisplay('-')"><b>-</b></button>
+
+        <button class="number" onclick="appendToDisplay('1')"><b>1</b></button>
+        <button class="number" onclick="appendToDisplay('2')"><b>2</b></button>
+        <button class="number" onclick="appendToDisplay('3')"><b>3</b></button>
+        <button class="operator" id="operacao" onclick="appendToDisplay('+')"><b>+</b></button>
+
+        <button class="number" onclick="appendToDisplay('0')"><b>0</b></button>
+        <button class="operator" onclick="appendToDisplay('.')"><b>.</b></button>
+        <button class="operator" id="equals" onclick="calculate()"><b>=</b></button>
+      </div>
+    </div>
+
+    <!-- Cria um contêiner com a classe "historic" para o histórico de operações. -->
+    <div class="historic">
+      <h3>Historical-Data</h3><br> <!-- Título "Histórico de Dados" e uma quebra de linha. -->
+
+      <!-- Cria um contêiner flexível para organizar os cabeçalhos. -->
+      <div class="flex-container">
+        <h5>Operation</h5>
+        <h5>Date/Time</h5>
+      </div>
+
+      <!-- Cria um contêiner para listar o histórico com o ID "historic-list". -->
+      <div class="historico" id="historic-list"></div>
+
+      <div class="center-button"> <!-- Cria um contêiner com a classe "center-button". -->
+        <button class="clean-button" id="clear-historic-button" onclick="clearHistoric()">
+          <!-- Cria um botão "Delete" com a classe "clear-button" e uma função para quando clicar. -->
+          <img src="./image/deletar.png" alt="img" class="icon"><br>Delete
+        </button>
+      </div>
+
+      <!-- Cria um segundo contêiner com a classe "center-button". -->
+      <div class="center-button">
+        <button class="save-button" id="save-historic-button" onclick="saveHistoricToFile()"><img
+            src="./image/salvar_histórico.png" alt="img" class="icon1"><br>
+          Save</button><!-- Cria um botão "Save" com a classe "save-button" e uma função para quando clicar. -->
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

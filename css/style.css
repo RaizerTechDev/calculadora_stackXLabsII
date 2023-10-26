@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+/* Estilos para a div que envolve o conteúdo */
+.container {
+  background-image: url("https://media.giphy.com/media/OiKvlVhnWPbCjgut50/giphy.gif");
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+body {
+  background-color: #222;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Estilos para títulos h3 */
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: inherit;
+}
+
+/* Estilos para células de tabela */
+table td {
+  display: inline-block;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3px;
+}
+
+.calculator {
+  width: 400px;
+  padding: 0.5em;
+  margin: 40px;
+  flex-direction: column;
+}
+
+button {
+  border-bottom: 2px solid #cc4848;
+  border-radius: 0;
+  height: 4em;
+  font-size: 1.2em;
+  background-color: #dbdbdb;
+  cursor: pointer;
+}
+
+.number {
+  background-color: #0c1a21;
+  color: #cc4848;
+}
+
+/* Efeito de hover para números da operação */
+.number:hover {
+  background-color: #41aee0;
+}
+
+/* Estilos para botões especiais (+, -, *, /) */
+.operator {
+  background-color: #41aee0;
+}
+
+/* Efeito de hover para botões de operação */
+.operator:hover {
+  background-color: #9eed5a;
+}
+
+/* Efeito de hover para botões de operação */
+.clean:hover {
+  background-color: #9eed5a;
+}
+
+.clean {
+  grid-column: span 2;
+}
+
+#equals {
+  grid-column: span 2;
+}
+
+/* Estilos para o visor da calculadora */
+.display {
+  height: 100px;
+  background-color: #0f83b9a6;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 35px;
+  word-wrap: break-word;
+  width: 100%;
+}
+
+/* Estilos para o visor da calculadora com ID "display" */
+#display {
+  height: 90px;
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  word-wrap: break-word;
+  border-bottom: 2px solid #cc4848;
+  background: #0f83b9a6;
+  width: 100%;
+  margin-bottom: 226px;
+}
+
+/* Estilos para a seção de histórico */
+.historic {
+  width: 400%;
+  max-width: 400px;
+  border-radius: 15px;
+  padding: 23px;
+  background-color: #eb2121;
+  color: white;
+  font-size: 19px;
+  text-align: center;
+  border: 3px solid rgb(33, 32, 32);
+  margin: 20px;
+  margin-top: 100px;
+}
+
+/* Estilos para o hover das linhas na lista de histórico */
+#historic-list tr:hover {
+  background-color: #162f3b;
+  cursor: pointer;
+}
+
+/* Estilos para células na lista de histórico */
+#historic-list td {
+  border: 1px solid white;
+  padding: 7.5px;
+  height: 49px;
+  text-align: left;
+  top: 100px;
+}
+
+/* Estilos para a primeira célula na lista de histórico */
+#historic-list td:first-child {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Estilos para a segunda célula na lista de histórico */
+#history-list b td:nth-child(2) {
+  font-weight: old;
+}
+
+/* Estilos para a última célula na lista de histórico */
+#historic-list td:last-child {
+  text-align: center;
+}
+
+/* Estilos para a div de histórico */
+.historico {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: #373737;
+  border-radius: 15px;
+  border: 1px solid white;
+  max-height: 13.7rem;
+  max-width: 92rem;
+  height: 900.4em;
+  overflow-y: auto;
+  margin-top: 1px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #ccc;
+  margin-bottom: 5px;
+}
+
+/* Estilos para botão flutuante */
+.boton {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Estilos para botões no centro do histórico */
+.center-button {
+  display: inline-block;
+  margin-right: 1px;
+  padding: 3px;
+  text-align: center;
+  color: white;
+  width: 48%;
+  height: 3.4em;
+  background-color: #0c1a21;
+  border-radius: 15px;
+  border: 1px solid white;
+  margin-top: 10px;
+}
+
+.clean-button,
+.save-button {
+  padding: 0px 0px;
+  /* Espaçamento interno do botão */
+  font-size: 15px;
+  /* Tamanho da fonte do texto no botão */
+  background-color: #0f83b9a6;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 100%;
+  height: 55px;
+  margin-top: 0px;
+}
+
+.clean-button:hover,
+.save-button:hover {
+  background-color: #9eed5a;
+}
+
+/* Estilos para ícones nos botões */
+.icon,
+.icon1 {
+  max-width: 25px;
+  max-height: 20px;
+  border-radius: 3px;
+  border: 1px solid black;
+  margin-top: -6px;
+}
+
+/* Estilos responsivos para telas menores */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .calculator {
+    width: 100%;
+    max-width: 253px;
+    margin: 10px;
+  }
+
+  .historic {
+    width: 100%;
+    max-width: 269px;
+    margin: 10px; /* Adicionei uma margem menor */
+  }
+
+  .historico {
+    margin-top: 0; /* Removi a margem superior */
+  }
+}
