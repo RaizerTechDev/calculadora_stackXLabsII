@@ -16,7 +16,7 @@
  <div align="center">
 <img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="45" width="45"> 
 
-## [ (```Clique aqui para conhecer o Projeto```) ](https://rafarz76dev-makeyourburger.netlify.app/)
+## [ (```Clique aqui para conhecer o Projeto```) ](https://rafarz76dev-calculadoralabs.netlify.app//)
 
 <br>
 
