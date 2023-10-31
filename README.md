@@ -46,7 +46,7 @@
 
 ***
 
-##  <img src="https://media.giphy.com/media/iT138SodaACo9LImgi/giphy.gif" align="center" height="75" width="75"> Tecnologias utilizadas no projeto
+<img src="https://media.giphy.com/media/iT138SodaACo9LImgi/giphy.gif" align="center" height="75" width="75"> Tecnologias utilizadas no projeto:
 
 🎯 HTML
 🎯 CSS 
@@ -56,7 +56,7 @@
 
 ***
 
-##  <img src="https://media.giphy.com/media/SS8CV2rQdlYNLtBCiF/giphy.gif" align="center" height="35" width="45">  Ferramenta utilizada no projeto
+<img src="https://media.giphy.com/media/SS8CV2rQdlYNLtBCiF/giphy.gif" align="center" height="35" width="45">  Ferramenta utilizada no projeto:
 
 - [VsCode](https://code.visualstudio.com/download) (v1.80.1)
 
@@ -64,23 +64,23 @@
 
 ***
 
-#### Para rodar no `Front-End`:
-
-- No arquivo index.html` vai clicar com o botão direito para digitar:
-
+<img src="https://media.giphy.com/media/u2pmTWUi0MXjyrMaVj/giphy.gif" align="center" height="65" width="65"> Para rodar no `Front-End`:
+- No arquivo `index.html` vai clicar com o botão direito para digitar:
 ```
 Open With Live Server
 ```
-
 - Assim vai abrir no navegador a `Calc_Labs`.
 
-  ### <img src="https://media.giphy.com/media/u2pmTWUi0MXjyrMaVj/giphy.gif" align="center" height="65" width="65"> Ou pelo `Deplopy Netlify`
-  ### [ (```Clique aqui e acesse o Projeto```) ](https://rafarz76dev-calculadoralabs.netlify.app//)
+***
+
+- Ou pelo `Deplopy Netlify`:
+  
+[ (```Clique aqui e acesse o Projeto```) ](https://rafarz76dev-calculadoralabs.netlify.app//)
     
 <br>
 
 ***
-   - ## <img src="https://media.giphy.com/media/ImmvDZ2c9xPR8gDvHV/giphy.gif" align="center" height="25" width="25"> Autor
+<img src="https://media.giphy.com/media/ImmvDZ2c9xPR8gDvHV/giphy.gif" align="center" height="25" width="25"> Autor
 
 <p>
     <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/87991807?v=4"/>
