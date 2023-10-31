@@ -22,7 +22,7 @@
 
 <div align="left">  
 
-### Projeto do curso StackX, do módulo StackX Lab II, com o professor Professor Vinícius Takeo, onde consiste em desenvolver uma calculadora, onde o usuário vai interagir:
+### Projeto do curso StackX, do módulo StackX Lab II, com o Professor Vinícius Takeo, onde consiste em desenvolver uma calculadora, onde o usuário vai interagir:
 - Realizando assim todas as operações;
 - Limpando a operação do Visor;
 - Apagando o último caracter
