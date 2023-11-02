@@ -26,7 +26,7 @@
 - Realizando assim todas as operações;
 - Limpando a operação do Visor;
 - Apagando o último caracter
-- Com um histórico exibindo a operação da calculadora com data e hora ataulizada;
+- Com um histórico exibindo a operação da calculadora com data e hora atualizada;
 - Dentro desse campo ```histórico``` vai vai ```salvar``` , ```deletar``` e clicar na ```operação retornando ao visor```;
 - Limitar o histórico a 4 entradas, apagando a operação mais antiga;
 - A calculadora apresenta as informações do histórico de maneira organizada em formato de tabela;
