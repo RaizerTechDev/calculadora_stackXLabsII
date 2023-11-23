@@ -138,7 +138,7 @@ button {
 /* Estilos para células na lista de histórico */
 #historic-list td {
   border: 1px solid white;
-  padding: 7.5px 10px;
+  padding: 7.5px 12.6px;
   height: 15px;
   text-align: left;
   top: 100px;
@@ -253,10 +253,20 @@ button {
   .historic {
     width: 100%;
     max-width: 269px;
-    margin: 10px; /* Adicionei uma margem menor */
+    margin: 30px; /* Adicionei uma margem menor */
   }
 
   .historico {
     margin-top: 0; /* Removi a margem superior */
   }
+
+  .flex-container {
+    justify-content: space-between;
+  }
+
+  /* Estilos para células na lista de histórico */
+  #historic-list td {
+    padding: 7.5px 9px;
+  }
 }
+
