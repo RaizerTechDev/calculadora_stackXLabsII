@@ -69,6 +69,7 @@ function updateHistoric() {
     let exprCell = document.createElement("td");
     let resultCell = document.createElement("td");
     let timeCell = document.createElement("td");
+    let time = document.createElement("td");
 
     // Obtém informações de data e hora da entrada no histórico
     let timestamp = new Date(entry.timestamp);
@@ -78,12 +79,14 @@ function updateHistoric() {
     // Define o conteúdo dos elementos criados
     exprCell.textContent = entry.expression;
     resultCell.textContent = entry.result;
-    timeCell.textContent = `${timestamp.getDate()}/${month}/${timestamp.getFullYear()}, ${timestamp.toLocaleTimeString()}`;
+    timeCell.textContent = `${timestamp.getDate()}/${month}/${timestamp.getFullYear()}`;
+    time.textContent = `${timestamp.toLocaleTimeString()}`;
 
     // Adiciona os elementos à linha do histórico e define um evento de clique para restaurar a expressão no visor
     row.appendChild(exprCell);
     row.appendChild(resultCell);
     row.appendChild(timeCell);
+    row.appendChild(time);
 
     row.onclick = () => {
       display.value = entry.expression;
@@ -124,3 +127,4 @@ function saveHistoricToFile() {
 function backspace() {
   display.value = display.value.slice(0, -1);
 }
+
