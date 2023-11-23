@@ -5,7 +5,7 @@
   font-family: Helvetica;
 }
 
-/* Estilos para a div que envolve o conteúdo */
+/* Estilos para a div que envolve o container */
 .container {
   background-image: url("https://media.giphy.com/media/OiKvlVhnWPbCjgut50/giphy.gif");
   display: flex;
@@ -118,7 +118,6 @@ button {
 .historic {
   width: 400%;
   max-width: 400px;
-  border-radius: 15px;
   padding: 23px;
   background-color: #eb2121;
   color: white;
@@ -127,6 +126,7 @@ button {
   border: 3px solid rgb(33, 32, 32);
   margin: 20px;
   margin-top: 100px;
+  border-radius: 15px;
 }
 
 /* Estilos para o hover das linhas na lista de histórico */
@@ -177,8 +177,7 @@ button {
 
 .flex-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
   border-bottom: 3px solid #ccc;
   margin-bottom: 5px;
 }
@@ -238,6 +237,7 @@ button {
 }
 
 /* Estilos responsivos para telas menores */
+
 @media (max-width: 600px) {
   .container {
     flex-direction: column;
