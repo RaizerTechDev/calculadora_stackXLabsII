@@ -138,8 +138,8 @@ button {
 /* Estilos para células na lista de histórico */
 #historic-list td {
   border: 1px solid white;
-  padding: 7.5px;
-  height: 49px;
+  padding: 7.5px 10px;
+  height: 15px;
   text-align: left;
   top: 100px;
 }
