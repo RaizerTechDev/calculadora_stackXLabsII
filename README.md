@@ -16,7 +16,7 @@
  <div align="center">
 <img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="45" width="45"> 
 
-## [ (```Clique aqui para conhecer o Projeto```) ](https://rafarz76dev-calculadoralabs.netlify.app//)
+## [ (```Clique aqui para conhecer o Projeto```) ](https://raizertechdev-calclabs.netlify.app/)
 
 <br>
 
@@ -75,7 +75,7 @@ Open With Live Server
 
 - Ou pelo `Deplopy Netlify`:
   
-[ (```Clique aqui e acesse o Projeto```) ](https://rafarz76dev-calculadoralabs.netlify.app//)
+[ (```Clique aqui e acesse o Projeto```) ](https://raizertechdev-calclabs.netlify.app/)
     
 <br>
 
@@ -84,8 +84,8 @@ Open With Live Server
 
 <p>
     <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/87991807?v=4"/>
-    <p>&nbsp&nbsp&nbspRafaRz76Dev<br>
-    &nbsp&nbsp&nbsp<a href="https://api.whatsapp.com/send/?phone=47999327137">Whatsapp</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/rafael-raizer//">LinkedIn</a>&nbsp;|&nbsp;<a href="https://github.com/RafaRz76Dev">GitHub</a>|&nbsp;<a href="https://public.tableau.com/app/profile/rafael.raizer">Tableau</a>|&nbsp;<a href="https://portifolio-rafarz76dev.netlify.app/">Portfólio</a>&nbsp;</p>
+    <p>&nbsp&nbsp&nbspRafaRaizer-Dev<br>
+    &nbsp&nbsp&nbsp<a href="https://api.whatsapp.com/send/?phone=47999327137">Whatsapp</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/rafael-raizer//">LinkedIn</a>&nbsp;|&nbsp;<a href="https://github.com/RaizerTechDev">GitHub</a>|&nbsp;<a href="https://public.tableau.com/app/profile/rafael.raizer">Tableau</a>|&nbsp;<a href="https://raizertechdev-portfolio.netlify.app/">Portfólio</a>&nbsp;</p>
 </p>
 
 
